@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E332CEA81E6F44F000DF664C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E332CEA71E6F44F000DF664C /* AppDelegate.swift */; };
+		E332CEAA1E6F44F000DF664C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E332CEA91E6F44F000DF664C /* ViewController.swift */; };
+		E332CEAD1E6F44F000DF664C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E332CEAB1E6F44F000DF664C /* Main.storyboard */; };
+		E332CEAF1E6F44F000DF664C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E332CEAE1E6F44F000DF664C /* Assets.xcassets */; };
+		E332CEB21E6F44F000DF664C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E332CEB01E6F44F000DF664C /* LaunchScreen.storyboard */; };
+		E332CEBD1E6F44F000DF664C /* ChaltTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E332CEBC1E6F44F000DF664C /* ChaltTests.swift */; };
+		E332CEC81E6F44F000DF664C /* ChaltUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E332CEC71E6F44F000DF664C /* ChaltUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E332CEB91E6F44F000DF664C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E332CE9C1E6F44F000DF664C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E332CEA31E6F44F000DF664C;
+			remoteInfo = Chalt;
+		};
+		E332CEC41E6F44F000DF664C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E332CE9C1E6F44F000DF664C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E332CEA31E6F44F000DF664C;
+			remoteInfo = Chalt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E332CEA41E6F44F000DF664C /* Chalt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chalt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E332CEA71E6F44F000DF664C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E332CEA91E6F44F000DF664C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E332CEAC1E6F44F000DF664C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E332CEAE1E6F44F000DF664C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E332CEB11E6F44F000DF664C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E332CEB31E6F44F000DF664C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E332CEB81E6F44F000DF664C /* ChaltTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChaltTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E332CEBC1E6F44F000DF664C /* ChaltTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaltTests.swift; sourceTree = "<group>"; };
+		E332CEBE1E6F44F000DF664C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E332CEC31E6F44F000DF664C /* ChaltUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChaltUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E332CEC71E6F44F000DF664C /* ChaltUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaltUITests.swift; sourceTree = "<group>"; };
+		E332CEC91E6F44F000DF664C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E332CEA11E6F44F000DF664C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E332CEB51E6F44F000DF664C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E332CEC01E6F44F000DF664C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E332CE9B1E6F44F000DF664C = {
+			isa = PBXGroup;
+			children = (
+				E332CEA61E6F44F000DF664C /* Chalt */,
+				E332CEBB1E6F44F000DF664C /* ChaltTests */,
+				E332CEC61E6F44F000DF664C /* ChaltUITests */,
+				E332CEA51E6F44F000DF664C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E332CEA51E6F44F000DF664C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E332CEA41E6F44F000DF664C /* Chalt.app */,
+				E332CEB81E6F44F000DF664C /* ChaltTests.xctest */,
+				E332CEC31E6F44F000DF664C /* ChaltUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E332CEA61E6F44F000DF664C /* Chalt */ = {
+			isa = PBXGroup;
+			children = (
+				E332CEA71E6F44F000DF664C /* AppDelegate.swift */,
+				E332CEA91E6F44F000DF664C /* ViewController.swift */,
+				E332CEAB1E6F44F000DF664C /* Main.storyboard */,
+				E332CEAE1E6F44F000DF664C /* Assets.xcassets */,
+				E332CEB01E6F44F000DF664C /* LaunchScreen.storyboard */,
+				E332CEB31E6F44F000DF664C /* Info.plist */,
+			);
+			path = Chalt;
+			sourceTree = "<group>";
+		};
+		E332CEBB1E6F44F000DF664C /* ChaltTests */ = {
+			isa = PBXGroup;
+			children = (
+				E332CEBC1E6F44F000DF664C /* ChaltTests.swift */,
+				E332CEBE1E6F44F000DF664C /* Info.plist */,
+			);
+			path = ChaltTests;
+			sourceTree = "<group>";
+		};
+		E332CEC61E6F44F000DF664C /* ChaltUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E332CEC71E6F44F000DF664C /* ChaltUITests.swift */,
+				E332CEC91E6F44F000DF664C /* Info.plist */,
+			);
+			path = ChaltUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E332CEA31E6F44F000DF664C /* Chalt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E332CECC1E6F44F000DF664C /* Build configuration list for PBXNativeTarget "Chalt" */;
+			buildPhases = (
+				E332CEA01E6F44F000DF664C /* Sources */,
+				E332CEA11E6F44F000DF664C /* Frameworks */,
+				E332CEA21E6F44F000DF664C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chalt;
+			productName = Chalt;
+			productReference = E332CEA41E6F44F000DF664C /* Chalt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E332CEB71E6F44F000DF664C /* ChaltTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E332CECF1E6F44F000DF664C /* Build configuration list for PBXNativeTarget "ChaltTests" */;
+			buildPhases = (
+				E332CEB41E6F44F000DF664C /* Sources */,
+				E332CEB51E6F44F000DF664C /* Frameworks */,
+				E332CEB61E6F44F000DF664C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E332CEBA1E6F44F000DF664C /* PBXTargetDependency */,
+			);
+			name = ChaltTests;
+			productName = ChaltTests;
+			productReference = E332CEB81E6F44F000DF664C /* ChaltTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E332CEC21E6F44F000DF664C /* ChaltUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E332CED21E6F44F000DF664C /* Build configuration list for PBXNativeTarget "ChaltUITests" */;
+			buildPhases = (
+				E332CEBF1E6F44F000DF664C /* Sources */,
+				E332CEC01E6F44F000DF664C /* Frameworks */,
+				E332CEC11E6F44F000DF664C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E332CEC51E6F44F000DF664C /* PBXTargetDependency */,
+			);
+			name = ChaltUITests;
+			productName = ChaltUITests;
+			productReference = E332CEC31E6F44F000DF664C /* ChaltUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E332CE9C1E6F44F000DF664C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Nicholas Babo";
+				TargetAttributes = {
+					E332CEA31E6F44F000DF664C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					E332CEB71E6F44F000DF664C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E332CEA31E6F44F000DF664C;
+					};
+					E332CEC21E6F44F000DF664C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E332CEA31E6F44F000DF664C;
+					};
+				};
+			};
+			buildConfigurationList = E332CE9F1E6F44F000DF664C /* Build configuration list for PBXProject "Chalt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E332CE9B1E6F44F000DF664C;
+			productRefGroup = E332CEA51E6F44F000DF664C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E332CEA31E6F44F000DF664C /* Chalt */,
+				E332CEB71E6F44F000DF664C /* ChaltTests */,
+				E332CEC21E6F44F000DF664C /* ChaltUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E332CEA21E6F44F000DF664C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E332CEB21E6F44F000DF664C /* LaunchScreen.storyboard in Resources */,
+				E332CEAF1E6F44F000DF664C /* Assets.xcassets in Resources */,
+				E332CEAD1E6F44F000DF664C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E332CEB61E6F44F000DF664C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E332CEC11E6F44F000DF664C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E332CEA01E6F44F000DF664C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E332CEAA1E6F44F000DF664C /* ViewController.swift in Sources */,
+				E332CEA81E6F44F000DF664C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E332CEB41E6F44F000DF664C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E332CEBD1E6F44F000DF664C /* ChaltTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E332CEBF1E6F44F000DF664C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E332CEC81E6F44F000DF664C /* ChaltUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E332CEBA1E6F44F000DF664C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E332CEA31E6F44F000DF664C /* Chalt */;
+			targetProxy = E332CEB91E6F44F000DF664C /* PBXContainerItemProxy */;
+		};
+		E332CEC51E6F44F000DF664C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E332CEA31E6F44F000DF664C /* Chalt */;
+			targetProxy = E332CEC41E6F44F000DF664C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E332CEAB1E6F44F000DF664C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E332CEAC1E6F44F000DF664C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E332CEB01E6F44F000DF664C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E332CEB11E6F44F000DF664C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E332CECA1E6F44F000DF664C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E332CECB1E6F44F000DF664C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E332CECD1E6F44F000DF664C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Chalt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.puffy.Chalt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E332CECE1E6F44F000DF664C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Chalt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.puffy.Chalt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E332CED01E6F44F000DF664C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChaltTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.puffy.ChaltTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chalt.app/Chalt";
+			};
+			name = Debug;
+		};
+		E332CED11E6F44F000DF664C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChaltTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.puffy.ChaltTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chalt.app/Chalt";
+			};
+			name = Release;
+		};
+		E332CED31E6F44F000DF664C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ChaltUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.puffy.ChaltUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Chalt;
+			};
+			name = Debug;
+		};
+		E332CED41E6F44F000DF664C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ChaltUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.puffy.ChaltUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Chalt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E332CE9F1E6F44F000DF664C /* Build configuration list for PBXProject "Chalt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E332CECA1E6F44F000DF664C /* Debug */,
+				E332CECB1E6F44F000DF664C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E332CECC1E6F44F000DF664C /* Build configuration list for PBXNativeTarget "Chalt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E332CECD1E6F44F000DF664C /* Debug */,
+				E332CECE1E6F44F000DF664C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E332CECF1E6F44F000DF664C /* Build configuration list for PBXNativeTarget "ChaltTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E332CED01E6F44F000DF664C /* Debug */,
+				E332CED11E6F44F000DF664C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E332CED21E6F44F000DF664C /* Build configuration list for PBXNativeTarget "ChaltUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E332CED31E6F44F000DF664C /* Debug */,
+				E332CED41E6F44F000DF664C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E332CE9C1E6F44F000DF664C /* Project object */;
+}
