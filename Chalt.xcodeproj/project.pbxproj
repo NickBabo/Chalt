@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DBDB323D1E707A4000296838 /* pgchat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBDB323F1E707A4000296838 /* pgchat.storyboard */; };
+		DBDB32411E708BA500296838 /* pgvoice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBDB32401E708BA500296838 /* pgvoice.storyboard */; };
 		E332CEA81E6F44F000DF664C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E332CEA71E6F44F000DF664C /* AppDelegate.swift */; };
 		E332CEAA1E6F44F000DF664C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E332CEA91E6F44F000DF664C /* ViewController.swift */; };
 		E332CEAD1E6F44F000DF664C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E332CEAB1E6F44F000DF664C /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DBDB323E1E707A4000296838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/pgchat.storyboard; sourceTree = "<group>"; };
+		DBDB32401E708BA500296838 /* pgvoice.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = pgvoice.storyboard; sourceTree = "<group>"; };
 		E332CEA41E6F44F000DF664C /* Chalt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chalt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E332CEA71E6F44F000DF664C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E332CEA91E6F44F000DF664C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				E332CEAE1E6F44F000DF664C /* Assets.xcassets */,
 				E332CEB01E6F44F000DF664C /* LaunchScreen.storyboard */,
 				E332CEB31E6F44F000DF664C /* Info.plist */,
+				DBDB323F1E707A4000296838 /* pgchat.storyboard */,
+				DBDB32401E708BA500296838 /* pgvoice.storyboard */,
 			);
 			path = Chalt;
 			sourceTree = "<group>";
@@ -235,6 +241,8 @@
 				E332CEB21E6F44F000DF664C /* LaunchScreen.storyboard in Resources */,
 				E332CEAF1E6F44F000DF664C /* Assets.xcassets in Resources */,
 				E332CEAD1E6F44F000DF664C /* Main.storyboard in Resources */,
+				DBDB323D1E707A4000296838 /* pgchat.storyboard in Resources */,
+				DBDB32411E708BA500296838 /* pgvoice.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +304,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		DBDB323F1E707A4000296838 /* pgchat.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBDB323E1E707A4000296838 /* Base */,
+			);
+			name = pgchat.storyboard;
+			sourceTree = "<group>";
+		};
 		E332CEAB1E6F44F000DF664C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -505,6 +521,7 @@
 				E332CECE1E6F44F000DF664C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E332CECF1E6F44F000DF664C /* Build configuration list for PBXNativeTarget "ChaltTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +530,7 @@
 				E332CED11E6F44F000DF664C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E332CED21E6F44F000DF664C /* Build configuration list for PBXNativeTarget "ChaltUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +539,7 @@
 				E332CED41E6F44F000DF664C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
