@@ -104,6 +104,7 @@
 				E332CEA71E6F44F000DF664C /* AppDelegate.swift */,
 				E332CEA91E6F44F000DF664C /* ViewController.swift */,
 				E332CEAB1E6F44F000DF664C /* Main.storyboard */,
+				E345A04A1E707B1800FE528E /* ConfigMural.storyboard */,
 				A3CC257D1E707A8600355299 /* menu.storyboard */,
 				E332CEAE1E6F44F000DF664C /* Assets.xcassets */,
 				E332CEB01E6F44F000DF664C /* LaunchScreen.storyboard */,
