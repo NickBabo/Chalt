@@ -15,6 +15,7 @@
 		E332CEB21E6F44F000DF664C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E332CEB01E6F44F000DF664C /* LaunchScreen.storyboard */; };
 		E332CEBD1E6F44F000DF664C /* ChaltTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E332CEBC1E6F44F000DF664C /* ChaltTests.swift */; };
 		E332CEC81E6F44F000DF664C /* ChaltUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E332CEC71E6F44F000DF664C /* ChaltUITests.swift */; };
+		E345A04C1E707B1800FE528E /* ConfigMural.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E345A04A1E707B1800FE528E /* ConfigMural.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E332CEC31E6F44F000DF664C /* ChaltUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChaltUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E332CEC71E6F44F000DF664C /* ChaltUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaltUITests.swift; sourceTree = "<group>"; };
 		E332CEC91E6F44F000DF664C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E345A04B1E707B1800FE528E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ConfigMural.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E345A04C1E707B1800FE528E /* ConfigMural.storyboard in Resources */,
 				E332CEB21E6F44F000DF664C /* LaunchScreen.storyboard in Resources */,
 				E332CEAF1E6F44F000DF664C /* Assets.xcassets in Resources */,
 				E332CEAD1E6F44F000DF664C /* Main.storyboard in Resources */,
@@ -322,6 +325,14 @@
 				E332CEB11E6F44F000DF664C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E345A04A1E707B1800FE528E /* ConfigMural.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E345A04B1E707B1800FE528E /* Base */,
+			);
+			name = ConfigMural.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
