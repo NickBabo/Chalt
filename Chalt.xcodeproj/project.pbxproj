@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3CC257F1E707A8600355299 /* menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3CC257D1E707A8600355299 /* menu.storyboard */; };
 		E332CEA81E6F44F000DF664C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E332CEA71E6F44F000DF664C /* AppDelegate.swift */; };
 		E332CEAA1E6F44F000DF664C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E332CEA91E6F44F000DF664C /* ViewController.swift */; };
 		E332CEAD1E6F44F000DF664C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E332CEAB1E6F44F000DF664C /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A3CC257E1E707A8600355299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/menu.storyboard; sourceTree = "<group>"; };
 		E332CEA41E6F44F000DF664C /* Chalt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chalt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E332CEA71E6F44F000DF664C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E332CEA91E6F44F000DF664C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				E332CEA71E6F44F000DF664C /* AppDelegate.swift */,
 				E332CEA91E6F44F000DF664C /* ViewController.swift */,
 				E332CEAB1E6F44F000DF664C /* Main.storyboard */,
+				A3CC257D1E707A8600355299 /* menu.storyboard */,
 				E332CEAE1E6F44F000DF664C /* Assets.xcassets */,
 				E332CEB01E6F44F000DF664C /* LaunchScreen.storyboard */,
 				E332CEB31E6F44F000DF664C /* Info.plist */,
@@ -235,6 +238,7 @@
 				E332CEB21E6F44F000DF664C /* LaunchScreen.storyboard in Resources */,
 				E332CEAF1E6F44F000DF664C /* Assets.xcassets in Resources */,
 				E332CEAD1E6F44F000DF664C /* Main.storyboard in Resources */,
+				A3CC257F1E707A8600355299 /* menu.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +300,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		A3CC257D1E707A8600355299 /* menu.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3CC257E1E707A8600355299 /* Base */,
+			);
+			name = menu.storyboard;
+			sourceTree = "<group>";
+		};
 		E332CEAB1E6F44F000DF664C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -505,6 +517,7 @@
 				E332CECE1E6F44F000DF664C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E332CECF1E6F44F000DF664C /* Build configuration list for PBXNativeTarget "ChaltTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +526,7 @@
 				E332CED11E6F44F000DF664C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E332CED21E6F44F000DF664C /* Build configuration list for PBXNativeTarget "ChaltUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +535,7 @@
 				E332CED41E6F44F000DF664C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
